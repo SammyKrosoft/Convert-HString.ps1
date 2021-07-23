@@ -43,4 +43,5 @@ Foreach ($Item in $ArrayOfString){
 
 Here's the resulting colorful output:
 
+![image](https://user-images.githubusercontent.com/33433229/126730502-5a716531-586f-49b2-9bb1-00b1b56848af.png)
 
