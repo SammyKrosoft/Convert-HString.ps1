@@ -50,6 +50,7 @@ The full script is in the repository (ConvertHereStringToArraySampleScript.ps1)
 
 Here's the resulting colorful output:
 
-![image](https://user-images.githubusercontent.com/33433229/126730645-ab8e4b9c-3119-4640-ba29-b43f53e91b87.png)
+![image](https://user-images.githubusercontent.com/33433229/126730679-0bac9f35-cb22-488e-bf14-13c6f418a2a2.png)
+
 
 
