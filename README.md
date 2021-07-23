@@ -46,7 +46,7 @@ Foreach ($Item in $ArrayOfString){
 }
 ```
 
-The full script is in the repository (ConvertHereStringToArraySampleScript.ps1)
+The full script is in the repository [ConvertHereStringToArraySampleScript.ps1](https://raw.githubusercontent.com/SammyKrosoft/Convert-HString.ps1/main/ConvertHereStringToArraySampleScript.ps1)
 
 Here's the resulting colorful output:
 
