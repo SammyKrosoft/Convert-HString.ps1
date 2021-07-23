@@ -28,6 +28,10 @@ $YourHereString = @"
 Beautiful String 1
 Beautiful String 2
 Nice String 3
+Grood String 4
+Marvellous String 5
+Awesome String 6
+Super-Duper String 7
 etc...
 "@
 
@@ -38,10 +42,14 @@ $AllConsoleColors = [enum]::GetValues('System.ConsoleColor')
 
 Foreach ($Item in $ArrayOfString){
   Write-Host "$Item" -ForeGroundColor $($AllConsoleColors|Get-Random) # <-- I just put all console colors in an array $AllConsoleColors, and piped to "Get-Random" to get a random value among colors :-)
+  Write-Host "Done for $Item" -BackgroundColor $($AllConsoleColors|Get-Random) # <- Okay I like playing with colors in Powershell hehe 3-)
 }
 ```
 
+The full script is in the repository (ConvertHereStringToArraySampleScript.ps1)
+
 Here's the resulting colorful output:
 
-![image](https://user-images.githubusercontent.com/33433229/126730502-5a716531-586f-49b2-9bb1-00b1b56848af.png)
+![image](https://user-images.githubusercontent.com/33433229/126730645-ab8e4b9c-3119-4640-ba29-b43f53e91b87.png)
+
 
