@@ -40,3 +40,7 @@ Foreach ($Item in $ArrayOfString){
   Write-Host "$Item" -ForeGroundColor $($AllConsoleColors|Get-Random) # <-- I just put all console colors in an array $AllConsoleColors, and piped to "Get-Random" to get a random value among colors :-)
 }
 ```
+
+Here's the resulting colorful output:
+
+
